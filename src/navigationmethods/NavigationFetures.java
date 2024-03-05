@@ -11,7 +11,7 @@ public class NavigationFetures {
 
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		driver.get("https://www.google.com");
 		Thread.sleep(3000);
 		driver.navigate().to("https://www.facebook.com");
